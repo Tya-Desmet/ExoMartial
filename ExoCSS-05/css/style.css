@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/kc.svg");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top right;
+}
+
+.img{
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 500px;
+    
+}
+
+#bds{
+    border: 14px ridge #ffc1f1;
+    background-image: url("../img/bds.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#T1{
+    border: 14px outset #ff4949;
+    background-image: url("../img/T1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#G2{    
+    border: 14px dashed #000000;
+    background-image: url("../img/G2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}   
+
+#gentle{    
+    border: 14px dotted #81ffad; 
+    background-image: url("../img/gentle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'rubik vinyl', cursive;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
