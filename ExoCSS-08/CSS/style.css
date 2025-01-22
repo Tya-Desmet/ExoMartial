@@ -1,0 +1,36 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 24px;
+}
+
+.menu ol{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.text{
+    width: 185px;
+    text-align: center;
+}
+
+.menu {
+    width: 185px;
+}

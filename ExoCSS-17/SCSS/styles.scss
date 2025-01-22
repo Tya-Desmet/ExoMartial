@@ -1,0 +1,110 @@
+/* les polices */
+
+h1 {
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+ h3 {
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+h4 {
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+h5 {
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+h6 {
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+
+}
+
+/* global */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%;
+    margin: 0 24px;
+    padding: 20px;
+}
+
+.menu ol {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.headerwh{
+    width: 120px;
+}
+
+.fa-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+/* banner */
+
+.background {
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 629px;
+}
+
+.overlay { 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.text a {
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
