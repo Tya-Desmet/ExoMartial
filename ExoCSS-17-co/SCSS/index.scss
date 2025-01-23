@@ -1,0 +1,160 @@
+$font-family: 'Open Sans', sans-serif;
+$line-height-140: 1.4;
+$line-height-120: 1.2;
+$line-height-180: 1.8;
+
+$colors: (
+  primary: #A10550,
+  black: #0C0C0C,
+  white: #FFFFFF,
+  background: #FAF9F5
+);
+
+$font-weights: (
+  bold: 700,
+  regular: 400,
+  semi-bold: 600
+);
+
+.typography {
+  font-family: $font-family;
+
+  // Display styles
+  .display-1 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 64px;
+    line-height: $line-height-140;
+  }
+
+  .display-2 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 56px;
+    line-height: $line-height-120;
+  }
+
+  // Heading styles
+  h1 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 44px;
+    line-height: $line-height-140;
+  }
+
+  h2 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 40px;
+    line-height: $line-height-140;
+  }
+
+  h3 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 32px;
+    line-height: $line-height-140;
+  }
+
+  h4 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 24px;
+    line-height: $line-height-140;
+  }
+
+  h5 {
+    font-weight: map-get($font-weights, bold);
+    font-size: 20px;
+    line-height: $line-height-140;
+  }
+
+  h6 .h6{
+    font-weight: map-get($font-weights, bold);
+    font-size: 16px;
+    line-height: $line-height-140;
+  }
+
+  // Body text
+  .body-xl {
+    font-weight: map-get($font-weights, regular);
+    font-size: 20px;
+    line-height: $line-height-180;
+  }
+
+  .body-lg {
+    font-weight: map-get($font-weights, regular);
+    font-size: 18px;
+    line-height: $line-height-180;
+  }
+
+  .body-md {
+    font-weight: map-get($font-weights, regular);
+    font-size: 16px;
+    line-height: $line-height-180;
+  }
+
+  .body-sm {
+    font-weight: map-get($font-weights, regular);
+    font-size: 14px;
+    line-height: $line-height-180;
+  }
+
+  .body-xs {
+    font-weight: map-get($font-weights, regular);
+    font-size: 12px;
+    line-height: $line-height-180;
+  }
+
+  // Caption text
+  .caption-md {
+    font-weight: map-get($font-weights, regular);
+    font-size: 12px;
+    line-height: $line-height-180;
+  }
+
+  .caption-lg {
+    font-weight: map-get($font-weights, semi-bold);
+    font-size: 14px;
+    line-height: $line-height-140;
+  }
+
+  .caption-sm {
+    font-weight: map-get($font-weights, semi-bold);
+    font-size: 10px;
+    line-height: $line-height-180;
+  }
+
+  // Buttons
+  .button-lg {
+    font-weight: map-get($font-weights, regular);
+    font-size: 16px;
+    line-height: $line-height-180;
+  }
+
+  .button-sm {
+    font-weight: map-get($font-weights, regular);
+    font-size: 14px;
+    line-height: 1.24; // Specific value
+  }
+}
+
+// Colors
+body {
+    background-color: map-get($colors, background);
+    color: map-get($colors, black);
+  }
+  
+  .primary {
+    color: map-get($colors, primary);
+  }
+  
+  .text-white {
+    color: map-get($colors, white);
+  }
+  
+  .bg-primary {
+    background-color: map-get($colors, primary);
+  }
+  
+  .bg-black {
+    background-color: map-get($colors, black);
+  }
+  
+  .bg-white {
+    background-color: map-get($colors, white);
+  }
